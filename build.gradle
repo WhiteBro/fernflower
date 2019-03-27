@@ -27,4 +27,5 @@ jar {
 pmd {
     toolVersion = '6.8.0'
     ruleSetFiles = files("pmd.xml")
+    ignoreFailures = true
 }
